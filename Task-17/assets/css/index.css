@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+section {
+    background-color: #eee;
+    height: 1200px;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.headline p {
+    color: #FF3783;
+    align-self: center;
+}
+
+.head .headline h2 {
+    color: #002856;
+    font-size: 45px;
+}
+
+.sd {
+    align-self: center;
+}
+
+.description {
+    background-color: white;
+    padding: 25px;
+    height: 100px;
+    width: 340px;
+}
+
+.description h4 {
+    color: #002856;
+    font-size: 25px;
+}
+
+.col-3 {
+    width: 340px;
+    padding: 0px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.col-3 img {
+    height: 381px;
+    width: 340px;
+}
