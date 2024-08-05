@@ -1,0 +1,57 @@
+*{
+box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+}
+.part{
+    display: flex;
+}
+.part i{
+    font-size: 45px;
+    margin-right: 20px;
+}
+.text{
+    width: 300px;
+}
+.one{
+color:#71A0DE
+}
+.two{
+    color: #E08879;
+}
+.three{
+    color: #8D89D5;
+}
+.four{
+color: #E7B192;
+}
+.five{
+color: #61E7B1;
+}
+.six{
+color: #4D5864;
+}
+.image{
+    width: 400px;
+}
+img{
+    margin-left: -270px;
+    width: 900px;
+    height: 680px;
+    margin-top: -110px;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    margin-top: 50px;
+    width: 416px;
+    margin-right: -60px;
+}
+.right{
+    margin-top: 50px;
+    width: 416px;
+    margin-left: -60px;
+}
