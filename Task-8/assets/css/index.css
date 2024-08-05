@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: linear-gradient( rgb(107, 48, 218,0.95) , rgb(107, 48, 218,0.95) ), url('../pics/49821ce7-b62a-4bcb-9013-0a21bed58ed5.jpg');
+    background-size: cover;
+    z-index: -999;
+}
+h1{
+    font-size: 70px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+h2{
+    margin-bottom: 20px;
+}
+.image{
+    margin-left: 100px;
+}
+img{
+    width: 1000px;
+}
+.right{
+    margin-top: 115px;
+    color:white;
+}
+.description{
+    width: 500px;
+}
+.logos{
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+}
+.google{
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 70px;
+    
+}
+.app-store{
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 80px;
+}
+.txt{
+    margin-left: 10px;
+}
+.google i{
+    font-size: 45px;
+}
+.app-store i{
+    font-size: 50px;
+}
+h5{
+    font-size: 30px;
+    
+}
+.app-store h4{
+    margin-bottom: -5px;
+    font-size: 15px;
+}
+.google h4 {
+    margin-bottom: -5px;
+    font-size: 10px;
+}
+.note{
+    margin-top: 15px;
+    font-size: 22px;
+    font-style: italic;
+}
