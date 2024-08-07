@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}img{
+    width: 400px;
+    height: 240px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+h1,h3,h4{
+    align-self: center;
+}
+h1{
+    color: #80808008;
+    font-size: 90px;
+}
+.small-title{
+    position: relative;
+    margin-top: -60px;
+    font-size: 15px;
+    color: #FF3838;
+}
+.small-title::after{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background-color: #FF3838;
+    right: -35px;
+    top: 8px;
+}
+h4{
+    font-size: 50px;
+    margin-top: 15px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.col-4{
+    position: relative;
+    padding: 0px;
+    width: 402px;
+    border: 1px solid #80808036;
+    border-radius: 10px;
+}
+.odd::after{
+    content: "Marketing";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    border-radius:30px ;
+    background-color: #FF3838;
+    color: white;
+    top: 25px;
+    left: 25px;
+}
+.even::after{
+    content: "UI/UX Design";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    border-radius:30px ;
+    background-color: #FF3838;
+    color: white;
+    top: 25px;
+    left: 25px;
+}
+.description{
+    padding: 20px;
+}
+.author{
+    display: flex;
+}
+.author i{
+    margin-right: 7px;
+    margin-top: 4px;
+    color: #FF3838;
+}
+.date{
+    margin-left:30px;
+    display: flex;
+}
+.date i{
+    margin-right: 7px;
+    margin-top: 4px;
+    color: #FF3838;
+}
+.date-and-author{
+    display: flex;
+}
+.read-more{
+    display: flex;
+}
+.read-more i{
+    font-size: 27px;
+    margin-left: 10px;
+}
+.description h2{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
