@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 50px;
+    background-color: #EBEBEB;
+}
+.image-head img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 400px;
+    height: 205px;
+}
+.info{
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.info-except-price{
+    padding: 20px 30px 10px 30px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.col-4{
+    width: 400px;
+    padding: 0px;
+}
+.feedback .review{
+    display: flex;
+    align-items: center;
+}
+.feedback .review p{
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.feedback{
+    display: flex;
+    justify-content: space-between;
+}
+.feedback .review .star i{
+    color: #FFA121;
+}
+.bookmark{
+    width: 40px;
+    height: 40px;
+    background-color: #EBEBEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.lessons-students{
+    display: flex;
+    justify-content: space-evenly;
+    width: 260px;
+    height: 30px;
+    background-color: #EBEBEB;
+    margin-bottom: 15px;
+}
+.lessons{
+    display: flex;
+}
+.lessons i,.students i{
+    align-self: center;
+    color: #939593;
+    margin-right: 5px;
+}
+.lessons p,.students p{
+    align-self: center;
+    color: #939593;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.border{
+    align-self: center;
+    height: 30px;
+    width: 3px;
+    background-color: #939593;
+}
+.students{
+    display: flex;
+}
+.description{
+    font-size: 15px;
+    color: #939593;
+}
+.author{
+    display: flex;
+}
+.author .By{
+    margin: 0px;
+    margin-left: 10px;
+    align-self: center;
+}
+.author .image-by{
+    border: 1px solid #939593;
+    padding: 2px;
+    border-radius: 50%;
+}
+.author img{
+    width: 40px;
+    border-radius: 50%;
+}
+.discount{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 20px 30px;
+}
+hr{
+    margin-bottom: 0px;
+}
+.details{
+    align-items: center;
+    display: flex;
+}
+.details p{
+    margin-right:5px ;
+    margin-bottom: 0px;
+}
+.details i{
+    font-size: 14px;
+    color: #939593;
+}
+.number{
+    display: flex;
+}
+.number del{
+    font-weight: 700;
+    color: #939593;
+}
+.number p{
+    color:#D2093C;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.bold{
+    margin: 0px;
+    margin-left: 2px;
+    align-self: center;
+    font-weight: 500;
+}
