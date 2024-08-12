@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.contact .right{
+color: #FE5A6E;
+margin-left: 10px;
+font-weight: 700;
+}
+.contact .left{
+    color: #323A45;
+    font-weight: 700;
+}
+h5{
+    align-self: center;
+    position: relative;
+}
+h5::after{
+    content: "";
+    position: absolute;
+    width: 49px;
+    height: 2px;
+    background-color: #FE5A6E;
+    bottom: -22px;
+    left: 110px;
+}
+h2{
+    color: #323A45;
+    margin-bottom: 30px;
+}
+.row{
+    margin-top: 100px;
+}
+.inputs input,.inputs textarea{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #8080802e;
+    padding-left: 10px;
+}
+.inputs textarea{
+    height: 310px;
+    padding-top: 10px;
+}
+.Email-Phone{
+    display: flex;
+    justify-content: space-between;
+}
+.Email-Phone input{
+    width: 48.5%;
+   
+}
+button{
+    margin: 0px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 14px;
+    
+    font-weight: 700;
+}
+.button{
+    background-color: #FE5A6E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 45px;
+    border-radius: 30px;
+}
+.button i{
+    margin-left: 5px;
+}
+.col-4 h3{
+color: #323A45;
+font-size: 20px;
+margin-bottom: 0px;
+}
+.office-location,.Email,.Phone,.social-address{
+    margin-bottom: 45px;
+}
+.office-location .info,.Phone .info,.Email .info{
+    display: flex;
+    flex-direction: row;
+}
+.office-location .info .icon i,.Phone .info .icon i,.Email .info .icon i{
+    font-size: 25px;
+    color: #FE5A6E;
+}
+
+.office-location .info .icon,.Phone .info .icon,.Email .info .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 50%;
+    border: 1px solid #8080802e;
+    margin-right: 10px;
+}
+.office-location .info .text p,.Phone .info .text p,.Email .info .text p{
+    margin-bottom: 0px;
+}
+.social-address .icons{
+    display: flex;
+}
+.social-address .icons .facebook,.social-address .icons .twitter,.social-address .icons .pinterest,.social-address .icons .instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid #8080802e;
+    margin-right: 10px;
+}
+.social-address .icons .facebook{
+    background-color: #3B5998;
+}
+.social-address .icons .twitter{
+    background-color: #00B6F1;
+}
+.social-address .icons .pinterest{
+    background-color: #BD081C;
+}
+.social-address .icons .instagram{
+    background-color: #CD486B;
+}
+
