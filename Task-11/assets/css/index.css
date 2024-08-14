@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.colored{
+    color: #FF375F;
+    font-weight: 700;
+}
+h1{
+    color: #002856;
+    font-size: 38px;
+    font-weight: 700;
+}
+.left-part{
+    margin-right: 30px;
+    margin-top: 80px;
+}
+.doctors{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+.left,.right{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 5px 5px 15px #8080804f;
+    position: relative;
+    padding: 50px 20px 15px 20px;
+    width: 300px;
+}
+.left .icon ,.right .icon{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px #8080804f;
+    font-size: 30px;
+    color: #002856;
+    top: -38px;
+}
+h3{
+    font-weight: 600;
+    font-size: 21px;
+    color: #002856;
+    margin-bottom: 15px;
+    
+}
+.right-part{
+    background-color: white;
+    box-shadow: 5px 5px 15px #8080804f;
+    padding: 40px;
+    width: 630px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input,form select{
+    width: 48%;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    height: 50px;
+    color: grey;
+    border:1px solid #0028564d;
+    border-radius: 5px;
+}
+
+select[name="Location"]{
+    width: 100%;
+}
+textarea{
+    height: 125px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border:1px solid #0028564d;
+    border-radius: 5px;
+}
+.name-email,.phone-date,.department-doctor{
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    font-size: 18px;
+    color: #002856;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+button{
+    background-color: #FF375F;
+    color: white;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+}
+.lorem{
+    color: grey;
+}
