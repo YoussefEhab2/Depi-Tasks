@@ -1,0 +1,118 @@
+section{
+    position: relative;
+    margin: 20px 50px 20px 50px;
+}
+.row{
+    position: absolute;
+    width: 100%;
+    left: 450px;
+    top: 165px;
+}
+img{
+    filter: brightness(35%);
+    z-index: -9999;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    border-radius: 10px;
+}
+.left{
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px 40px 30px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #80808045;
+    top: -35px;
+}
+.left p{
+    font-size: 14px;
+    color: grey;
+}
+.left h2{
+    font-size: 28px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.inputs input{
+    padding: 10px 10px 10px 15px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #8080802e;
+    border-radius: 5px;
+}
+.inputs textarea{
+    display: flex;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 60%;
+    padding: 10px 10px 10px 15px;
+    border: 1px solid #8080802e;
+    border-radius: 5px;
+}
+button{
+    width: 130px;
+    height: 50px;
+    border: none;
+    background-color: #EB2027;
+    color: white;
+    border-radius: 30px;
+}
+.right{
+    position: absolute;
+    right: 785px;
+
+}
+input[type="number"]::placeholder{
+    
+}
+.pre-title{
+    color: #EB2027;
+    font-size: 15px;
+    font-weight: 700;
+}
+h1{
+    color:white;
+}
+.right .lorem{
+    color: #ffffffbf;
+    font-size: 14px;
+}
+.features{
+    display: flex;
+}
+.number p{
+    margin-bottom: 0px;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #EB2027;
+    border-radius: 50%;
+    color: white;
+}
+.border-num{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    background-color: #eb202770;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+h5{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
