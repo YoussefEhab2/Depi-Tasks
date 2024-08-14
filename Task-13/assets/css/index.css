@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.row{
+    margin-top: 50px;
+}
+.col-5{
+    position: relative;
+}
+img{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}
+.number{
+    display: flex;
+    width: 75px;
+}
+.number p{
+    font-size: 30px;
+    margin-bottom: 0px;
+    align-self: center;
+    color: #EB2027;
+}
+.floating{
+    position: absolute;
+    padding-bottom: 10px;
+    width: 180px;
+    height: 170px;
+    background-color: white;
+    box-shadow: 5px 5px 10px #80808042;
+    top: 0px;
+    left: 307px;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.floating .exp{
+    margin-bottom: 0px;
+    width: 75px;
+}
+.floating h3{
+    font-size: 60px;
+    margin-bottom: 0px;
+    color: #EB2027;
+}
+.pre-title{
+    color: #EB2027;
+    
+}
+.post-title{
+    margin-bottom: 30px;
+}
+.icon-text{
+display: flex;
+margin-bottom: 20px;
+}
+.icon{
+align-self: center;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+position: relative;
+
+background-color: #eb202729;
+border: 3px dashed #eb202729;
+height: 70px;
+width: 116px;;
+border-radius: 50%;
+margin-bottom: 15px;
+}
+.icon i{
+    font-size: 30px;
+    color: #EB2027;
+}
+
+.up::after{
+    content: "01";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 8px;
+    width: 14px;
+    height: 14px;
+    left: 47px;
+    top: 0px;
+    background-color: black;
+    border-radius: 50%;
+
+}
+.down::after{
+    content: "02";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 8px;
+    width: 14px;
+    height: 14px;
+    left: 47px;
+    top: 0px;
+    background-color: black;
+    border-radius: 50%;
+}
+.text{
+    margin-left: 10px;
+}
+.right p{
+     font-size: 14px;
+     color: grey;
+}
+h4{
+    font-size: 18px;
+}
+h1{
+    margin-top: 15px;
+}
+button{
+    background-color: #EB2027;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    width: 115px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+}
