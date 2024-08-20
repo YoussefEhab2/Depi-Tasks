@@ -108,3 +108,33 @@ h5{
     border: 1px solid black;
     border-radius: 50%;
 }
+@media (min-width:320px) and (max-width:730px) {
+    h3{
+        font-size: 25px;
+    }
+    h2{
+        font-size:25px;
+    }
+    .col-6{
+        width: 200px;
+        margin-bottom: 40px;
+    }
+    .col-6::after{
+        left: 30vw;
+    }
+}
+@media (min-width:731px) and (max-width:1399px) {
+    .col-6{
+        width: 35vw;
+        margin-bottom: 40px;
+    }
+    .col-6::after{
+        left: 26vw;
+    }
+    .container::after{
+        right: 43vw;
+    }
+    .container::before{
+        right: 47vw;
+    }
+}

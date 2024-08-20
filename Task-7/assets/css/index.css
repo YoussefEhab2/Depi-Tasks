@@ -151,3 +151,34 @@ hr{
     align-self: center;
     font-weight: 500;
 }
+@media (min-width:320px) and (max-width:730px) {
+    .row{
+        flex-direction: column;
+    }
+    .info-except-price{
+        padding: 5px
+    }
+    .col-4{
+        width: 67vw;
+        margin-bottom: 40px;
+    }
+  .image-head img{
+    width: 67vw;
+    height: 35vw;
+  }
+}
+@media (min-width:731px) and (max-width:1399px) {
+ .row{
+    flex-direction: column;
+ }
+
+    .col-4{
+        align-self: center;
+        width: 70vw;
+        margin-bottom: 40px;
+    }
+    .image-head img{
+        width:70vw;
+        height: 35vw;
+      }
+}

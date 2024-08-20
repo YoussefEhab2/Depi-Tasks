@@ -105,3 +105,34 @@ button{
 .lorem{
     color: grey;
 }
+@media (min-width:320px) and (max-width:730px) {
+    .row{
+        flex-direction: column;
+    }
+  .left{
+    width: 37vw;
+  }
+  h3{
+    font-size: 3.5vw;
+  }
+  .right .lorem{
+    width: 27.3vw;
+   
+  }
+  .right{
+    margin-left: 40px;
+  }
+}
+@media (min-width:731px) and (max-width:1200px) {
+ .row{
+    flex-direction: column;
+ }.doctors{
+    justify-content: space-evenly;
+ }
+.col-6{
+    width: 100%;
+}
+h1{
+    width: 100%;
+}
+}
