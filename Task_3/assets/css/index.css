@@ -1,9 +1,12 @@
-.container-fluid {
+.container-fluid{
+    width: 1450px;
+    display: flex;
+    flex-direction: column;
     margin-top: 50px;
-    width: 1450px
 }
 
 .row {
+    display: flex;
     justify-content: space-between;
 }
 
@@ -37,4 +40,27 @@
 .col-3 h3 {
     font-size: 24px;
     margin-bottom: 10px;
+}
+@media (min-width:320px) and (max-width:767px) {
+    .container-fluid{
+        width: fit-content;
+    }
+    .row{
+        flex-direction: column;
+        align-self: center;
+    }
+    .col-3{
+        margin-bottom: 15px;
+    }
+}
+@media (min-width:768px) and (max-width:1280px) {
+    .container-fluid{
+        width: 768px;
+    }
+    .col-3{
+        margin-bottom: 15px;
+    }
+    .row{
+        justify-content: space-evenly;
+    }
 }

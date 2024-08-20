@@ -52,3 +52,34 @@ section .n {
 section .sec {
     margin: 25px 0px 25px 30px;
 }
+@media (min-width:320px) and (max-width:767px) {
+.row{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.bot p,.sec,.col{
+    width: fit-content;
+}
+.col{
+    border-right: 1px solid #80808038;
+    border-left: 1px solid #80808038;
+    border-bottom: 1px solid #80808038;
+}
+}
+@media (min-width:768px) and (max-width:1280px) {
+
+    .row{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .bot p,.sec,.col{
+        width: fit-content;
+    }
+    .col{
+        border-right: 1px solid #80808038;
+        border-left: 1px solid #80808038;
+        border-bottom: 1px solid #80808038;
+    }
+}

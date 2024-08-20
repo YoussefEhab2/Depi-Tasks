@@ -91,3 +91,37 @@ img {
     top: 64px;
     bottom: 0px;
 }
+@media (min-width:320px) and (max-width:767px) {
+    .container-fluid{
+        width: fit-content;
+    }
+    .row{
+        align-self: center;
+    }
+    .main-paragraph p{
+        width: 300px;
+    }
+    .check{
+        flex-direction: column;
+    }
+    .image{
+        align-self: flex-start;
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+    img{
+        width: 350px;
+        height: 350px;
+    }
+   
+}
+@media (min-width:768px) and (max-width:1280px) {
+    .main-paragraph p{
+        width: 580px;
+    }
+    .image{
+        align-self: flex-start;
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+}
