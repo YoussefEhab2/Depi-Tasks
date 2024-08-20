@@ -127,3 +127,20 @@ button{
 .even{
     margin-top: 75px;
 }
+@media (min-width:320px) and (max-width:767px) {
+.row{
+    display: flex;
+    flex-direction: column;
+}
+.col-4{
+    width: 90%;
+    align-self: center;
+    margin-bottom: 20px;
+}
+}
+@media (min-width:768px) and (max-width:1399px) {
+  .col-4{
+    width: 48%;
+  }
+
+}

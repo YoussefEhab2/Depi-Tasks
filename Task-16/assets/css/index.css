@@ -55,3 +55,30 @@ img{
     width: 416px;
     margin-left: -60px;
 }
+@media (min-width:320px) and (max-width:767px) {
+    .row{
+        align-items: center;
+    }
+.col-4{
+    width: 100%;
+    align-self: center;
+}
+.right{
+    margin-left: 0px;
+}
+}
+@media (min-width:768px) and (max-width:1399px) {
+    .row{
+        width: 100%;
+    }
+.col-4{
+    width:28%;
+}
+.middle{
+    margin-left:12vw;
+}
+.right{
+    margin-left: 4vw;
+}
+
+}

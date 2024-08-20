@@ -66,7 +66,6 @@ button{
     border: none;
     color: white;
     font-size: 14px;
-    
     font-weight: 700;
 }
 .button{
@@ -138,4 +137,45 @@ margin-bottom: 0px;
 .social-address .icons .instagram{
     background-color: #CD486B;
 }
+@media (min-width:320px) and (max-width:767px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .col-4{
+        display: flex;
+        flex-direction: row;
+    }
+    .office-location{
+        flex-direction: column;
+    }
+    .col-4{
+        margin-top: 10vw;;
+    }
+    .col-4 h3{
+        font-size: 4vw;
+        margin-left: 10px;
+        align-self: flex-start;
+    }
+    .text p{
+        width: 10vw;
+    }
+   .Phone .text p,.Email .text p{
+    width: 38vw;
+   }
+   .social-address{
+    
+    width:55vw;
+    margin-left: 15vw;
+   }
+   .col-8{
+    width: 100%;
+   }
 
+}
+@media (min-width:767px) and (max-width:1399px) {
+.Email .info .text p{
+   font-size: 1.85vw ;
+}
+
+}

@@ -116,3 +116,34 @@ h5{
     font-size: 17px;
     margin-bottom: 15px;
 }
+@media (min-width:320px) and (max-width:767px) {
+    section{
+        width: 665px;
+    }
+    .right{
+        position: absolute;
+        right: 821px;
+        top: 0px;
+        width: 42%;
+    }
+    .left{
+        width: 60%;
+        margin-left: -30vw;
+    }
+
+}
+@media (min-width:768px) and (max-width:1399px) {
+    section{
+        width: 768px;
+    }
+    .right{
+        position: absolute;
+        right: 821px;
+        top: 0px;
+        width: 42%;
+    }
+    .left{
+        width: 60%;
+        margin-left: -7vw;
+    }
+}
